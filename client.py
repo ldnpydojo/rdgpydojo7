@@ -48,6 +48,8 @@ gluPerspective(90.0, width/float(height), 1, 100.0)
 glEnable(GL_DEPTH_TEST)
 glMatrixMode(GL_MODELVIEW)
 
+
+font = pygame.font.Font('AnonymousPro.ttf', 14)
 rx, ry = (0,0)
 tx, ty = (0,0)
 zpos = 7
@@ -59,27 +61,28 @@ while 1:
             sys.exit()
         elif e.type == KEYDOWN and e.key == K_ESCAPE:
             sys.exit()
-        elif e.type == MOUSEBUTTONDOWN:
-            if e.button == 4: zpos = max(1, zpos-1)
-            elif e.button == 5: zpos += 1
-            elif e.button == 1: rotate = True
-            elif e.button == 3: move = True
-        elif e.type == MOUSEBUTTONUP:
-            if e.button == 1: rotate = False
-            elif e.button == 3: move = False
-        elif e.type == MOUSEMOTION:
-            i, j = e.rel
-            if rotate:
-                rx += i
-                ry += j
-            if move:
-                tx += i
-                ty -= j
+#        elif e.type == MOUSEBUTTONDOWN:
+#            if e.button == 4: zpos = max(1, zpos-1)
+#            elif e.button == 5: zpos += 1
+#            elif e.button == 1: rotate = True
+#            elif e.button == 3: move = True
+#        elif e.type == MOUSEBUTTONUP:
+#            if e.button == 1: rotate = False
+#            elif e.button == 3: move = False
+#        elif e.type == MOUSEMOTION:
+#            i, j = e.rel
+#            if rotate:
+#                rx += i
+#                ry += j
+#            if move:
+#                tx += i
+#                ty -= j
     result = select.select([s],[],[], 0.01)
     if s in result:
         msg = result[0][0].recv(bufferSize)[:-1]
         coords = msg.split(',')
         rx, ry, tx, ty = [int(i) for i in coords]
+        print msg
 
 
     glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT)
