@@ -36,7 +36,7 @@ glEnable(GL_DEPTH_TEST)
 glShadeModel(GL_SMOOTH)           # most obj files expect to be smooth-shaded
  
 # LOAD OBJECT AFTER PYGAME INIT
-obj = OBJ(sys.argv[1], swapyz=True)
+obj = OBJ(sys.argv[1], swapyz=False)
  
 clock = pygame.time.Clock()
  
@@ -49,7 +49,7 @@ glMatrixMode(GL_MODELVIEW)
  
 rx, ry = (0,0)
 tx, ty = (0,0)
-zpos = 5
+zpos = 7
 rotate = move = False
 while 1:
     clock.tick(30)
