@@ -18,8 +18,10 @@ port = 6005  # where do you expect to get a msg?
 bufferSize = 1024 # whatever you need
 
 s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+s.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
+s.setsockopt(socket.SOL_SOCKET, socket.SO_BROADCAST, 1)
 s.bind(('10.10.1.255', port))
-s.setblocking(0)
+#s.setblocking(0)
 
 pygame.init()
 viewport = (800,600)
@@ -77,7 +79,7 @@ while 1:
 #                tx += i
 #                ty -= j
     result = select.select([s],[],[], 0.01)
-    if s in result:
+    if s in result[0]:
         msg = result[0][0].recv(bufferSize)[:-1]
         coords = msg.split(',')
         rx, ry, tx, ty = [int(i) for i in coords]
