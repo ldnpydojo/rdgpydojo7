@@ -80,10 +80,11 @@ while 1:
             if move:
                 tx += i
                 ty -= j
-    result = select.select([s],[],[])
-    msg = result[0][0].recv(bufferSize)[:-1]
-    coords = msg.split(',')
-    rx, ry, tx, ty = [int(i) for i in coords]
+    result = select.select([s],[],[], 0.01)
+    if s in result:
+        msg = result[0][0].recv(bufferSize)[:-1]
+        coords = msg.split(',')
+        rx, ry, tx, ty = [int(i) for i in coords]
 
 
     glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT)
