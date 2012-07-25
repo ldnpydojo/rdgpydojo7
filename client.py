@@ -50,7 +50,7 @@ glMatrixMode(GL_MODELVIEW)
 
 rx, ry = (0,0)
 tx, ty = (0,0)
-zpos = 5
+zpos = 7
 rotate = move = False
 while 1:
     clock.tick(30)
