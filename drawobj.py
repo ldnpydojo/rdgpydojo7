@@ -49,6 +49,7 @@ glMatrixMode(GL_MODELVIEW)
  
 rx, ry = (0,0)
 tx, ty = (0,0)
+prx, pry, ptx, pty = 0, 0, 0, 0
 zpos = 7
 rotate = move = False
 while 1:
@@ -75,7 +76,13 @@ while 1:
                 tx += i
                 ty -= j
  
-    server_socket.sendto(','.join([str(rx),str(ry),str(tx),str(ty)])+chr(0), ('10.10.1.255',port) )
+    if prx != rx or pry != ry or ptx != tx or pty != ty:
+        server_socket.sendto(','.join([str(rx),str(ry),str(tx),str(ty)])+chr(0), ('10.10.1.255',port) )
+        print rx, ry, tx, ty
+        prx = rx
+        pry = ry
+        ptx = tx
+        pty = ty
     glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT)
     glLoadIdentity()
  
