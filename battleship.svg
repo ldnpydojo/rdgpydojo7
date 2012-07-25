@@ -17,8 +17,8 @@
    height="1024"
    sodipodi:docname="battleship.svg"
    inkscape:export-filename="/home/mauve/dev/dojo7/texture.png"
-   inkscape:export-xdpi="22.5"
-   inkscape:export-ydpi="22.5">
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90">
   <metadata
      id="metadata8">
     <rdf:RDF>
@@ -69,12 +69,12 @@
      id="namedview4"
      showgrid="false"
      inkscape:zoom="0.4609375"
-     inkscape:cx="-9.8084556"
+     inkscape:cx="-11.977947"
      inkscape:cy="623.34671"
      inkscape:window-x="65"
      inkscape:window-y="24"
      inkscape:window-maximized="1"
-     inkscape:current-layer="svg2" />
+     inkscape:current-layer="layer2" />
   <rect
      style="color:#000000;fill:#b3b3b3;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
      id="rect2987"
@@ -84,13 +84,6 @@
      y="-23.764463"
      rx="13.005219"
      ry="13.005219" />
-  <image
-     width="1024"
-     height="1024"
-     xlink:href="file:///home/mauve/dev/dojo7/battleship.png"
-     id="image10"
-     x="0"
-     y="0" />
   <path
      style="fill:url(#linearGradient2997);fill-opacity:1;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
      d="M 106.1135,203.64896 130.39528,201.74268 225.50714,431.852 243.91589,640.48446 214.7687,1042.4087 26.079057,1036.2725 -9.204373,626.6779 12.272497,431.852 z"
@@ -177,4 +170,18 @@
      y="10.847457"
      rx="13.005219"
      ry="13.005219" />
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Layer"
+     sodipodi:insensitive="true"
+     style="display:none">
+    <image
+       width="1024"
+       height="1024"
+       xlink:href="file:///home/mauve/dev/dojo7/battleship.png"
+       id="image10"
+       x="0"
+       y="0" />
+  </g>
 </svg>
