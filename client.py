@@ -49,7 +49,6 @@ glEnable(GL_DEPTH_TEST)
 glMatrixMode(GL_MODELVIEW)
 
 
-font = pygame.font.Font('AnonymousPro.ttf', 14)
 rx, ry = (0,0)
 tx, ty = (0,0)
 zpos = 7
