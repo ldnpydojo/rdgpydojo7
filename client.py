@@ -78,8 +78,8 @@ while 1:
 #            if move:
 #                tx += i
 #                ty -= j
-    result = select.select([s],[],[])
-    if s in result[0]:
+    result = select.select([s],[],[], 1)
+    if result and s in result[0]:
         msg = result[0][0].recv(bufferSize)[:-1]
         coords = msg.split(',')
         rx, ry, tx, ty = [int(i) for i in coords]
