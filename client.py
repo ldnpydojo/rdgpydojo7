@@ -21,20 +21,15 @@ s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 s.bind(('10.10.1.255', port))
 s.setblocking(0)
 
-
-
-
-
-
 pygame.init()
 viewport = (800,600)
 hx = viewport[0]/2
 hy = viewport[1]/2
 srf = pygame.display.set_mode(viewport, OPENGL | DOUBLEBUF)
 
-glLightfv(GL_LIGHT0, GL_POSITION,  (-40, 200, 100, 0.0))
+glLightfv(GL_LIGHT0, GL_POSITION,  (600, 600, 600, 0.0))
 glLightfv(GL_LIGHT0, GL_AMBIENT, (0.2, 0.2, 0.2, 1.0))
-glLightfv(GL_LIGHT0, GL_DIFFUSE, (0.5, 0.5, 0.5, 1.0))
+glLightfv(GL_LIGHT0, GL_DIFFUSE, (0.8, 0.8, 0.8, 1.0))
 glEnable(GL_LIGHT0)
 glEnable(GL_LIGHTING)
 glEnable(GL_COLOR_MATERIAL)
