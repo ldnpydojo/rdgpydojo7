@@ -68,9 +68,9 @@
      inkscape:window-height="744"
      id="namedview4"
      showgrid="false"
-     inkscape:zoom="0.65186406"
-     inkscape:cx="567.97124"
-     inkscape:cy="289.23482"
+     inkscape:zoom="0.4609375"
+     inkscape:cx="-9.8084556"
+     inkscape:cy="623.34671"
      inkscape:window-x="65"
      inkscape:window-y="24"
      inkscape:window-maximized="1"
@@ -92,10 +92,11 @@
      x="0"
      y="0" />
   <path
-     style="fill:url(#linearGradient2997);stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;fill-opacity:1.0"
-     d="m 110.45248,197.14049 19.9428,4.60219 L 225.50714,431.852 243.91589,640.48446 214.7687,1042.4087 26.079057,1036.2725 -9.204373,626.6779 12.272497,431.852 z"
+     style="fill:url(#linearGradient2997);fill-opacity:1;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     d="M 106.1135,203.64896 130.39528,201.74268 225.50714,431.852 243.91589,640.48446 214.7687,1042.4087 26.079057,1036.2725 -9.204373,626.6779 12.272497,431.852 z"
      id="path2989"
-     inkscape:connector-curvature="0" />
+     inkscape:connector-curvature="0"
+     sodipodi:nodetypes="ccccccccc" />
   <g
      id="g3773"
      transform="matrix(0.13165187,-0.40200742,0.40200742,0.13165187,79.934633,1028.3086)">
@@ -167,4 +168,13 @@
        x="783.41034"
        id="tspan3811"
        sodipodi:role="line">D101</tspan></text>
+  <rect
+     style="color:#000000;fill:#1a1a1a;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:6;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+     id="rect3813"
+     width="47.728813"
+     height="175.72882"
+     x="104.13559"
+     y="10.847457"
+     rx="13.005219"
+     ry="13.005219" />
 </svg>
