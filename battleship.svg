@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.3.1 r9886"
+   width="1024"
+   height="1024"
+   sodipodi:docname="battleship.svg"
+   inkscape:export-filename="/home/mauve/dev/dojo7/texture.png"
+   inkscape:export-xdpi="22.5"
+   inkscape:export-ydpi="22.5">
+  <metadata
+     id="metadata8">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs6">
+    <linearGradient
+       id="linearGradient2991">
+      <stop
+         style="stop-color:#aa4400;stop-opacity:1;"
+         offset="0"
+         id="stop2993" />
+      <stop
+         style="stop-color:#ff8e43;stop-opacity:1;"
+         offset="1"
+         id="stop2995" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient2991"
+       id="linearGradient2997"
+       x1="92.043732"
+       y1="645.08667"
+       x2="113.5206"
+       y2="645.08667"
+       gradientUnits="userSpaceOnUse"
+       spreadMethod="reflect" />
+  </defs>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1301"
+     inkscape:window-height="744"
+     id="namedview4"
+     showgrid="false"
+     inkscape:zoom="0.65186406"
+     inkscape:cx="567.97124"
+     inkscape:cy="289.23482"
+     inkscape:window-x="65"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg2" />
+  <rect
+     style="color:#000000;fill:#b3b3b3;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+     id="rect2987"
+     width="1076.9116"
+     height="1064.6392"
+     x="-26.079056"
+     y="-23.764463"
+     rx="13.005219"
+     ry="13.005219" />
+  <image
+     width="1024"
+     height="1024"
+     xlink:href="file:///home/mauve/dev/dojo7/battleship.png"
+     id="image10"
+     x="0"
+     y="0" />
+  <path
+     style="fill:url(#linearGradient2997);stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;fill-opacity:1.0"
+     d="m 110.45248,197.14049 19.9428,4.60219 L 225.50714,431.852 243.91589,640.48446 214.7687,1042.4087 26.079057,1036.2725 -9.204373,626.6779 12.272497,431.852 z"
+     id="path2989"
+     inkscape:connector-curvature="0" />
+  <g
+     id="g3773"
+     transform="matrix(0.13165187,-0.40200742,0.40200742,0.13165187,79.934633,1028.3086)">
+    <path
+       d="m 556.86455,867.52563 c 0,9.31964 -7.55505,16.87469 -16.87468,16.87469 -9.31963,0 -16.87469,-7.55505 -16.87469,-16.87469 0,-9.31963 7.55506,-16.87468 16.87469,-16.87468 9.31963,0 16.87468,7.55505 16.87468,16.87468 z"
+       sodipodi:ry="16.874683"
+       sodipodi:rx="16.874683"
+       sodipodi:cy="867.52563"
+       sodipodi:cx="539.98987"
+       id="path3767"
+       style="color:#000000;fill:none;stroke:#333333;stroke-width:14.18387508;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       sodipodi:type="arc" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path3769"
+       d="m 539.98988,882.86628 0,55.22624"
+       style="fill:none;stroke:#333333;stroke-width:14.18387508;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path3771"
+       d="m 490.89989,908.94534 c 0,0 13.80656,30.68124 49.08999,29.14718 35.28343,-1.53406 41.41968,-30.68124 41.41968,-30.68124"
+       style="fill:none;stroke:#333333;stroke-width:14.18387508;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+  </g>
+  <g
+     transform="matrix(-0.13165187,-0.40200742,-0.40200742,0.13165187,826.68588,1029.8427)"
+     id="g3778"
+     inkscape:transform-center-x="-56.7603">
+    <path
+       sodipodi:type="arc"
+       style="color:#000000;fill:none;stroke:#333333;stroke-width:14.18387508;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="path3780"
+       sodipodi:cx="539.98987"
+       sodipodi:cy="867.52563"
+       sodipodi:rx="16.874683"
+       sodipodi:ry="16.874683"
+       d="m 556.86455,867.52563 c 0,9.31964 -7.55505,16.87469 -16.87468,16.87469 -9.31963,0 -16.87469,-7.55505 -16.87469,-16.87469 0,-9.31963 7.55506,-16.87468 16.87469,-16.87468 9.31963,0 16.87468,7.55505 16.87468,16.87468 z" />
+    <path
+       style="fill:none;stroke:#333333;stroke-width:14.18387508;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 539.98988,882.86628 0,55.22624"
+       id="path3782"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;stroke:#333333;stroke-width:14.18387508;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 490.89989,908.94534 c 0,0 13.80656,30.68124 49.08999,29.14718 35.28343,-1.53406 41.41968,-30.68124 41.41968,-30.68124"
+       id="path3784"
+       inkscape:connector-curvature="0" />
+  </g>
+  <text
+     xml:space="preserve"
+     style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#1a1a1a;fill-opacity:1;stroke:none;font-family:Comic Sans MS;-inkscape-font-specification:Comic Sans MS"
+     x="-870.96722"
+     y="522.85706"
+     id="text3805"
+     sodipodi:linespacing="125%"
+     transform="matrix(0,-1,1,0,0,0)"><tspan
+       sodipodi:role="line"
+       id="tspan3807"
+       x="-870.96722"
+       y="522.85706">D101</tspan></text>
+  <text
+     transform="matrix(0,1,-1,0,0,0)"
+     sodipodi:linespacing="125%"
+     id="text3809"
+     y="-376.21863"
+     x="783.41034"
+     style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#1a1a1a;fill-opacity:1;stroke:none;font-family:Comic Sans MS;-inkscape-font-specification:Comic Sans MS"
+     xml:space="preserve"><tspan
+       y="-376.21863"
+       x="783.41034"
+       id="tspan3811"
+       sodipodi:role="line">D101</tspan></text>
+</svg>
